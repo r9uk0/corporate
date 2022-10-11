@@ -642,7 +642,7 @@ footer>div {
 /* 次ページボタンのスタイル */
 
 .swiper-button-next {
-    background-image: url(https://aruruaruruaruru.github.io/corporate/img/slideCursor.png);
+    background-image: url(https://r9uk0.github.io/corporate/img/slideCursor.png);
     transform: scale(-1, 1);
     /* 左右反転 */
 }
@@ -651,7 +651,7 @@ footer>div {
 /* 前ページボタンのスタイル */
 
 .swiper-button-prev {
-    background-image: url(https://aruruaruruaruru.github.io/corporate/img/slideCursor.png);
+    background-image: url(https://r9uk0.github.io/corporate/img/slideCursor.png);
 }
 
 .swiper-button-prev:after,

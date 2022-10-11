@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*#EFF0F4
+#d3d6db
+#415f9d
+#233B6E*/
+
+.contactBody {
+    width: 100%;
+}
+
+.contactBody>div {
+    margin: 40px 0;
+    border-bottom: solid 2px #d3d6db;
+    padding-bottom: 40px;
+}
+
+.contactBody>div:first-child {
+    margin: 0px 0 20px;
+}
+
+.contactBody>div>input {
+    width: 100%;
+    height: 30px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border: solid 2px #d3d6db;
+}
+
+.contactBody>div>p {
+    position: relative;
+    padding-left: 90px;
+}
+
+.contactBody>div>p:before {
+    content: '必須';
+    position: absolute;
+    width: 70px;
+    background-color: #233B6E;
+    left: 0;
+    color: white;
+    text-align: center;
+}
+
+#formSubmit {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: #415f9d;
+    border: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    transition: all 0.4s;
+    display: block;
+}
+
+#formSubmit:hover {
+    opacity: 0.7;
+}
+
+.ifContact {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.ifContact>li>a {
+    color: #000;
+    text-decoration: none;
+}
+
+.ifContact>li>a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}

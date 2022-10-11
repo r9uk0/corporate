@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*#EFF0F4
+#d3d6db
+#415f9d
+#233B6E*/
+
+.bgcDiffBrush {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/css/swiper.min.css">
+    <title>fiction-Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link href="https://aruruaruruaruru.github.io/corporate/corporate.css" rel="stylesheet">
+    <link href="https://aruruaruruaruru.github.io/corporate/contact/contact.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://aruruaruruaruru.github.io/corporate/img/logo180x180.png">
+    <script>
+        var userAgent = window.navigator.userAgent.toLowerCase();
+        if (userAgent.indexOf('msie') != -1 ||
+            userAgent.indexOf('trident') != -1) {
+            window.location.replace("https://aruruaruruaruru.github.io/corporate/ie/index.html");
+        }
+    </script>
+</head>
+
+<body class="wf-notosansjapanese">
+    <main>
+        <article class="wrapper">
+            <section class="bgcDiff">
+                <div class="kv cateKv">
+                    <img class="dispPc" src="https://aruruaruruaruru.github.io/corporate/img/contact.png" alt="">
+                    <img class="dispSp" src="https://aruruaruruaruru.github.io/corporate/img/contactSp.png" alt="">
+                    <div style="right:100px;left:initial;">
+                        <h1>お問い合わせ</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="uW600 uMa uPl0 uPr0 uPl16-Pc uPr16-Pc">
+                <form class="contactBody">
+                    <div>
+                        <p>氏名</p>
+                        <input type="text" id="contactName" oninput="validationName()">
+                        <div id="contactNameMsg"></div>
+
+                    </div>
+                    <div>
+                        <p>電話番号</p>
+                        <input type="text" id="contactTel" oninput="validationTel()">
+                        <div id="contactTelMsg"></div>
+
+                    </div>
+                    <div>
+                        <p>メールアドレス</p>
+                        <input type="text" id="contactMail" oninput="validationMail()">
+                        <div id="contactMailMsg"></div>
+
+                    </div>
+                    <div>
+                        <p>お問い合わせ内容</p>
+                        <input type="text" id="contactText" oninput="validationText()">
+                        <div id="contactTextMsg"></div>
+                    </div>
+                    <input id="formSubmit" type="button" value="送信">
+                </form>
+                <p class="uMt30">フォームの送信が上手く行かない場合はお手数ですが下記メールアドレスまたは電話番号にてお問い合わせください。</p>
+                <ul class="ifContact">
+                    <li>Tel：<a href="tel:XX-XXXX-XXXX">XX-XXXX-XXXX</a>
+                    </li>
+                    <li>E-mail：<a href="mailto:hogehuga@xxx.jp">hogehuga@xxx.jp</a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/js/swiper.min.js "></script>
+    <script src="https://aruruaruruaruru.github.io/corporate/corporate.js "></script>
+    <script src="https://aruruaruruaruru.github.io/corporate/contact/contact.js "></script>
+
+</body>
+
+</html>

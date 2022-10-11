@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/*#EFF0F4
+#d3d6db
+#415f9d
+#233B6E*/
+
+.recruitTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recruitTable>tbody>tr>th {
+    padding: 24px 0px 24px;
+    border-top: solid 3px #d3d6db;
+    border-bottom: solid 3px #d3d6db;
+    text-align: left;
+    width: 14%;
+    font-weight: 700;
+}
+
+.recruitTable>tbody>tr>td {
+    border-top: solid 3px #d3d6db;
+    border-bottom: solid 3px #d3d6db;
+    padding: 24px 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .recruitTable>tbody>tr>th {
+        width: 25%;
+    }
+}
+
+.presiMsgBody {
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+
+.presiMsgBody>img {
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+    min-height: 562px;
+    max-height: 562px;
+}
+
+.presiMsg {
+    position: absolute;
+    min-height: 322px;
+    background-color: #233B6E;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.recruitTitle {
+    font-size: 1.9rem;
+    padding: 40px 0 40px 30px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #415f9d;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .presiMsgBody {
+        display: flex;
+        flex-direction: column;
+    }
+    .presiMsgBody>img {
+        object-fit: unset;
+        min-height: initial;
+        max-height: initial;
+    }
+    .presiMsg {
+        width: 100%;
+        position: static;
+        min-height: auto;
+        height: auto;
+        transform: initial;
+        -webkit-transform: initial;
+        -ms-transform: initial;
+        padding: 16px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+    .recruitTitle {
+        font-size: 1.7rem;
+        padding: 16px 0 16px 30px;
+    }
+}
+
+.contactBody {
+    width: 100%;
+}
+
+.contactBody>div {
+    margin: 40px 0;
+    border-bottom: solid 2px #d3d6db;
+    padding-bottom: 40px;
+}
+
+.contactBody>div:first-child {
+    margin: 0px 0 20px;
+}
+
+.contactBody>div>input {
+    width: 100%;
+    height: 30px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border: solid 2px #d3d6db;
+}
+
+.contactBody>div>p {
+    position: relative;
+    padding-left: 90px;
+}
+
+.contactBody>div>p:before {
+    content: '必須';
+    position: absolute;
+    width: 70px;
+    background-color: #233B6E;
+    left: 0;
+    color: white;
+    text-align: center;
+}
+
+#recruitformSubmit {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: #415f9d;
+    border: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    transition: all 0.4s;
+    display: block;
+}
+
+#recruitformSubmit:hover {
+    opacity: 0.7;
+}
+
+.attachLabel {
+    display: inline-block;
+    position: relative;
+    background: #415f9d;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 4px;
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+
+.attachLabel:hover {
+    opacity: 0.7;
+}
+
+#recruitAttach {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px) {}
